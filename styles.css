@@ -1,6 +1,15 @@
+ /*
+ @black:#00010d;
+ @grey1:#636a73;
+ @grey2:#4d5359;
+ @grey3:#343a40;
+ @cyan: #30bced;
+ @white: #fffaff;
+*/
+
 body {
-    background-color: rgb(92, 92, 92);
-    
+    background-image: url("./assets/wallpaper.jpg");
+    background-size: cover;
   }
 
 img{
@@ -8,8 +17,12 @@ img{
   max-height:100%;
 }
 
-#hero{
-    background-image: url("./assets/abstract-white-color-texture-background.jpg")
-}
+footer{
 
-  
+  /* texto */
+  text-align: center;
+  color: #fffaff;
+
+  /* Fondo */
+  background-color: #636a73;
+}
