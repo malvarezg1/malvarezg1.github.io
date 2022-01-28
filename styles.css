@@ -6,7 +6,19 @@
  @cyan: #30bced;
  @white: #fffaff;
 */
+h1{
+  color: #fffaff;
+  font-family: 'Libre Franklin', sans-serif;
+}
 
+h2{
+  color: #fffaff;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+  color: #fffaff;
+}
 body {
     background-image: url("./assets/wallpaper.jpg");
     background-size: cover;
