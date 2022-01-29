@@ -24,6 +24,8 @@ body {
     margin-right: 0px;
     background-image: url("./assets/wallpaper.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 img{
@@ -42,8 +44,14 @@ footer{
 }
 
 #Hero{
+  display:flex;
   height:800px;
   vertical-align:middle;
+  align-items:center
+}
+
+#Hero_Sub{
+  color:#30bced;
 }
 #sidebar{
  color:#30bced;
