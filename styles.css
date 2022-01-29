@@ -20,6 +20,8 @@ p{
   color: #fffaff;
 }
 body {
+
+    margin-right: 0px;
     background-image: url("./assets/wallpaper.jpg");
     background-size: cover;
   }
@@ -37,4 +39,13 @@ footer{
 
   /* Fondo */
   background-color: #636a73;
+}
+
+#Hero{
+  height:1000px;
+}
+#sidebar{
+ color:#30bced;
+  opacity: 0.7;
+  background-color: #343a40;
 }
