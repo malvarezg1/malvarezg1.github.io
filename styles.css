@@ -43,9 +43,12 @@ footer{
   background-color: #636a73;
 }
 
+#main{
+  margin-left: 0px;
+}
 #Hero{
   display:flex;
-  height:800px;
+  height:100vh;
   vertical-align:middle;
   align-items:center
 }
