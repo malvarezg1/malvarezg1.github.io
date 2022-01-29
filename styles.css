@@ -42,7 +42,8 @@ footer{
 }
 
 #Hero{
-  height:1000px;
+  height:800px;
+  vertical-align:middle;
 }
 #sidebar{
  color:#30bced;
