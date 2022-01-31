@@ -40,15 +40,23 @@ footer{
   /* Fondo */
   background-color: #636a73;
 }
-
-#main{
-  margin-left: 0px;
+.nav-link{
+  color:#30bced;
 }
+
+
+.bi{
+  color:#fffaff;
+}
+/*#main{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+*/
 #Hero{
-  display:flex;
+  padding-top: 50vh;
+  padding-left:5vw;
   height:100vh;
-  vertical-align:middle;
-  align-items:center
 }
 
 #img_profile{
