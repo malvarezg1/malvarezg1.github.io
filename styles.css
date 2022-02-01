@@ -40,14 +40,24 @@ footer{
   /* Fondo */
   background-color: #636a73;
 }
-.nav-link{
-  color:#30bced;
+
+/* Navbar */
+
+.custom-toggler.navbar-toggler {
+  border-color:#fffaff ;
+  color:#fffaff;
+} 
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #30bced;
 }
 
 
 .bi{
   color:#fffaff;
 }
+
 
 #content{
   padding-left:5vw;
@@ -65,7 +75,6 @@ footer{
 #Hero_Sub{
   color:#30bced;
 }
-
 
 
 #menu_bar{
