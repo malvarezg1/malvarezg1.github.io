@@ -56,15 +56,19 @@ footer{
 
 .bi{
   color:#fffaff;
+  vertical-align: middle;
 }
 
-
+#logo-header{
+  font-size: 40px;
+  vertical-align: middle;
+}
 #content{
   padding-left:5vw;
 }
 
 #Hero{
-  padding-top: 40vh;
+  padding-top: 50vh;
   padding-left:5vw;
   height:100vh;
 }
