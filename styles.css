@@ -48,13 +48,13 @@ footer{
 .bi{
   color:#fffaff;
 }
-/*#main{
-  margin-left: 0px;
-  margin-right: 0px;
+
+#content{
+  padding-left:5vw;
 }
-*/
+
 #Hero{
-  padding-top: 50vh;
+  padding-top: 40vh;
   padding-left:5vw;
   height:100vh;
 }
@@ -65,8 +65,16 @@ footer{
 #Hero_Sub{
   color:#30bced;
 }
-#sidebar{
- color:#30bced;
-  opacity: 0.7;
+
+
+
+#menu_bar{
   background-color: #343a40;
+  opacity: 0.7;
 }
+
+#sidebar{
+  color:#30bced;
+}
+
+
