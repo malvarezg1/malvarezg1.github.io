@@ -20,6 +20,7 @@ h2, h3{
 p{
   color: #fffaff;
 }
+
 body {
 
     margin-right: 0px;
@@ -68,14 +69,22 @@ footer{
   font-size: 40px;
   vertical-align: middle;
 }
+
 #content{
   padding-left:5vw;
 }
 
 #Hero{
-  padding-top: 50vh;
+  padding-top: 15em;
   padding-left:5vw;
   height:100vh;
+}
+@media screen and (min-width: 768px){
+  #Hero{
+    padding-top: 20em;
+    padding-left:5vw;
+    height:100vh;
+  }
 }
 
 
