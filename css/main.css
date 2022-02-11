@@ -1,0 +1,99 @@
+/*
+*Definicion de variables que guardan el coloe
+*/
+h1 {
+  color: #fffaff;
+  font-size: 5em;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h2,
+h3 {
+  color: #fffaff;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+p {
+  color: #fffaff;
+}
+
+body {
+  margin-right: 0px;
+  background-image: url("../assets/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+dt,
+li {
+  color: #fffaff;
+}
+
+footer {
+  /* texto */
+  text-align: center;
+  color: #fffaff;
+  /* Fondo */
+  background-color: #4d5359;
+}
+
+/* Navbar */
+.custom-toggler.navbar-toggler {
+  border-color: #fffaff;
+  color: #fffaff;
+}
+
+.navbar {
+  background-color: #4d5359;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #30bced;
+}
+
+.bi {
+  color: #fffaff;
+  vertical-align: middle;
+}
+
+#logo-header {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+#content {
+  padding-left: 5vw;
+}
+
+#Hero {
+  padding-top: 15em;
+  padding-left: 5vw;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  #Hero {
+    padding-top: 20em;
+    padding-left: 5vw;
+    height: 100vh;
+  }
+}
+#img_profile {
+  border-radius: 50%;
+}
+
+#Hero_Sub {
+  color: #30bced;
+}
+
+#menu_bar {
+  background-color: #343a40;
+  opacity: 0.7;
+}
+
+#sidebar {
+  color: #30bced;
+}
+
+/*# sourceMappingURL=main.css.map */
