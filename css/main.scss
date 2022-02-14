@@ -1,104 +1,134 @@
 /*
 *Definicion de variables que guardan el coloe
 */
-$black:#00010d;
-$grey1: #636a73;
-$grey2:#4d5359;
-$grey3:#343a40;
-$cyan: #30bced;
+$black: #00010d;
+$gray1: #D9D2D3;
+$gray2: #162440;
+$gray3: #071426;
+$cyan:   #F15025; //#00C2D1;//30bced;
 $white: #fffaff;
 
 h1 {
-    color: $white;
-    font-size: 5em;
-    font-family: "Libre Franklin", sans-serif;
-  }
-  
-  h2,
-  h3 {
-    color: $white;
-    font-family: "Libre Franklin", sans-serif;
-  }
-  
-  p {
-    color: $white;
-  }
-  
-  body {
-    margin-right: 0px;
-    background-image: url("../assets/wallpaper.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  dt,
-  li {
-    color: $white;
-  }
-  
-  footer {
-    /* texto */
-    text-align: center;
-    color: $white;
-    /* Fondo */
-    background-color: #4d5359;
-  }
-  
-  /* Navbar */
-  
-  .custom-toggler.navbar-toggler {
-    border-color: $white;
-    color: $white;
-  }
-  
-  .navbar {
-    background-color: #4d5359;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    color: #30bced;
-  }
-  
-  .bi {
-    color: $white;
-    vertical-align: middle;
-  }
-  
-  #logo-header {
-    font-size: 40px;
-    vertical-align: middle;
-  }
-  
-  #content {
-    padding-left: 5vw;
-  }
-  
+  color: $white;
+  font-size: 5em;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h2{
+  color: $white;
+  font-family: "Libre Franklin", sans-serif;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+.card h2{
+  color: $gray3;
+  padding-top: 1em;
+}
+
+.card{
+  margin-top: 2em;
+}
+
+h3{
+  color: $gray3;
+  font-family: "Libre Franklin", sans-serif;
+}
+p {
+  color: $white;
+}
+
+body {
+  background-image: url("../assets/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+dt,li {
+  color: $gray2;
+}
+
+dl{
+  padding-left: 3em;
+}
+
+footer {
+  /* texto */
+  text-align: center;
+  color: $white;
+  /* Fondo */
+  background-color: #4d5359;
+}
+
+/* Navbar */
+
+.custom-toggler.navbar-toggler {
+  border-color: $white;
+  color: $white;
+}
+
+.navbar {
+  background-color: $gray3;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $cyan;
+}
+
+.bi {
+  color: $white;
+  vertical-align: middle;
+}
+
+#logo-header {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+#content {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#Hero {
+  padding-top: 16em;
+  height: 100vh; 
+}
+
+#HeroBand{
+  background-color: $gray3;
+  opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
   #Hero {
-    padding-top: 15em;
-    padding-left: 5vw;
+    padding-top: 10em;
     height: 100vh;
   }
-  @media screen and (min-width: 768px) {
-    #Hero {
-      padding-top: 20em;
-      padding-left: 5vw;
-      height: 100vh;
-    }
-  }
-  
-  #img_profile {
-    border-radius: 50%;
-  }
-  #Hero_Sub {
-    color: #30bced;
-  }
-  
-  #menu_bar {
-    background-color: #343a40;
-    opacity: 0.7;
-  }
-  
-  #sidebar {
-    color: #30bced;
-  }
-  
+}
+
+#img_profile {
+  border-radius: 50%;
+  margin: auto;
+}
+#Hero_Sub {
+  color: $cyan;
+  padding-top: 0em;
+  padding-bottom: 0em;;   
+}
+
+
+#sidebar {
+  color: $cyan;
+}
+
+.carousel-inner img {
+  height: 16em;
+  width: 16em;
+  margin: auto;
+}
+
+.carousel-indicators {
+  top: 255px;
+}

@@ -7,9 +7,24 @@ h1 {
   font-family: "Libre Franklin", sans-serif;
 }
 
-h2,
-h3 {
+h2 {
   color: #fffaff;
+  font-family: "Libre Franklin", sans-serif;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+.card h2 {
+  color: #071426;
+  padding-top: 1em;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+h3 {
+  color: #071426;
   font-family: "Libre Franklin", sans-serif;
 }
 
@@ -18,16 +33,18 @@ p {
 }
 
 body {
-  margin-right: 0px;
   background-image: url("../assets/wallpaper.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
-dt,
-li {
-  color: #fffaff;
+dt, li {
+  color: #162440;
+}
+
+dl {
+  padding-left: 3em;
 }
 
 footer {
@@ -45,11 +62,11 @@ footer {
 }
 
 .navbar {
-  background-color: #4d5359;
+  background-color: #071426;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #30bced;
+  color: #F15025;
 }
 
 .bi {
@@ -64,36 +81,48 @@ footer {
 
 #content {
   padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 #Hero {
-  padding-top: 15em;
-  padding-left: 5vw;
+  padding-top: 16em;
   height: 100vh;
+}
+
+#HeroBand {
+  background-color: #071426;
+  opacity: 0.7;
 }
 
 @media screen and (min-width: 768px) {
   #Hero {
-    padding-top: 20em;
-    padding-left: 5vw;
+    padding-top: 10em;
     height: 100vh;
   }
 }
 #img_profile {
   border-radius: 50%;
+  margin: auto;
 }
 
 #Hero_Sub {
-  color: #30bced;
-}
-
-#menu_bar {
-  background-color: #343a40;
-  opacity: 0.7;
+  color: #F15025;
+  padding-top: 0em;
+  padding-bottom: 0em;
 }
 
 #sidebar {
-  color: #30bced;
+  color: #F15025;
+}
+
+.carousel-inner img {
+  height: 16em;
+  width: 16em;
+  margin: auto;
+}
+
+.carousel-indicators {
+  top: 255px;
 }
 
 /*# sourceMappingURL=main.css.map */
