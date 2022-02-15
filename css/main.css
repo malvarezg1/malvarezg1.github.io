@@ -36,7 +36,8 @@ p {
   color: #071426;
 }
 
-dt, li {
+dt,
+li {
   color: #162440;
 }
 
@@ -50,6 +51,10 @@ footer {
   color: #ffffff;
   /* Fondo */
   background-color: #071426;
+}
+
+footer p {
+  color: #ffffff;
 }
 
 /*
@@ -75,7 +80,7 @@ footer {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #F15025;
+  color: #f15025;
 }
 
 .bi {
@@ -109,11 +114,6 @@ footer {
   vertical-align: middle;
 }
 
-#main {
-  padding-left: 0%;
-  padding-right: 0px;
-}
-
 #content {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -141,7 +141,7 @@ footer {
   }
 }
 #Hero_Sub {
-  color: #F15025;
+  color: #f15025;
   padding-top: 0em;
 }
 
@@ -155,7 +155,25 @@ footer {
 }
 
 #sidebar {
-  color: #F15025;
+  color: #f15025;
+}
+
+#YTVideo {
+  width: 270px;
+  height: 151px;
+}
+
+@media screen and (min-width: 758px) {
+  #YTVideo {
+    width: 420px;
+    height: 236px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #YTVideo {
+    width: 560px;
+    height: 315px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
