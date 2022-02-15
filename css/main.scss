@@ -1,42 +1,18 @@
 /*
 *Definicion de variables que guardan el coloe
 */
+
 $black: #00010d;
 $gray1: #D9D2D3;
 $gray2: #162440;
 $gray3: #071426;
 $cyan:   #F15025; //#00C2D1;//30bced;
-$white: #fffaff;
+$white: #ffffff;
 
-h1 {
-  color: $white;
-  font-size: 5em;
-  font-family: "Libre Franklin", sans-serif;
-}
 
-h2{
-  color: $white;
-  font-family: "Libre Franklin", sans-serif;
-  padding-bottom: 1em;
-  padding-top: 2em;
-}
-
-.card h2{
-  color: $gray3;
-  padding-top: 1em;
-}
-
-.card{
-  margin-top: 2em;
-}
-
-h3{
-  color: $gray3;
-  font-family: "Libre Franklin", sans-serif;
-}
-p {
-  color: $white;
-}
+/*
+* Etiquetas 
+*/
 
 body {
   background-image: url("../assets/wallpaper.jpg");
@@ -46,6 +22,30 @@ body {
 }
 
 
+h1 {
+  color: $white;
+  font-size: 5em;
+  font-weight: 600;
+  font-family: "Libre Franklin", sans-serif;
+  padding-top: 0.5em;
+}
+
+h2{
+  color: $white;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+h3{
+  color: $gray3;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+p {
+  color: $gray3;
+}
 
 dt,li {
   color: $gray2;
@@ -60,7 +60,20 @@ footer {
   text-align: center;
   color: $white;
   /* Fondo */
-  background-color: #4d5359;
+  background-color: $gray3;
+}
+
+/*
+* Clases 
+*/ 
+
+.card h2{
+  color: $gray3;
+  padding-top: 1em;
+}
+
+.card{
+  margin-top: 2em;
 }
 
 /* Navbar */
@@ -82,9 +95,40 @@ footer {
   vertical-align: middle;
 }
 
+
+.carousel-inner img {
+  height: 18em;
+  width: 15em;
+  margin: auto;
+}
+
+.carousel-indicators {
+  top: 255px;
+}
+
+.card_text{
+  color:$gray3
+}
+
+.icon_bar{
+  padding-bottom: 2em;
+}
+
+
+
+
+/*
+* Elementos  
+*/
+
 #logo-header {
   font-size: 40px;
   vertical-align: middle;
+}
+
+#main{
+  padding-left: 0%;
+  padding-right: 0px;
 }
 
 #content {
@@ -96,11 +140,6 @@ footer {
   padding-top: 16em;
   height: 100vh; 
 }
-
-#HeroBand{
-  background-color: $gray3;
-  opacity: 0.7;
-}
 @media screen and (min-width: 768px) {
   #Hero {
     padding-top: 10em;
@@ -108,27 +147,31 @@ footer {
   }
 }
 
-#img_profile {
-  border-radius: 50%;
-  margin: auto;
+#HeroBand{
+  padding-left: 3em;
+  background-color:  rgba(7, 20, 38, .6);
 }
+@media screen and (min-width: 768px) {
+  #HeroBand {
+    padding-left: 5em; 
+  }
+}
+
 #Hero_Sub {
   color: $cyan;
   padding-top: 0em;
-  padding-bottom: 0em;;   
+}
+
+#Hobbie{
+  height: 100vh;
+}
+
+#img_profile {
+  border-radius: 50%;
+  margin: auto;
 }
 
 
 #sidebar {
   color: $cyan;
-}
-
-.carousel-inner img {
-  height: 16em;
-  width: 16em;
-  margin: auto;
-}
-
-.carousel-indicators {
-  top: 255px;
 }

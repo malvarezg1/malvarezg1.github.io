@@ -1,26 +1,30 @@
 /*
 *Definicion de variables que guardan el coloe
 */
+/*
+* Etiquetas 
+*/
+body {
+  background-image: url("../assets/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 h1 {
-  color: #fffaff;
+  color: #ffffff;
   font-size: 5em;
+  font-weight: 600;
   font-family: "Libre Franklin", sans-serif;
+  padding-top: 0.5em;
 }
 
 h2 {
-  color: #fffaff;
+  color: #ffffff;
   font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
   padding-bottom: 1em;
   padding-top: 2em;
-}
-
-.card h2 {
-  color: #071426;
-  padding-top: 1em;
-}
-
-.card {
-  margin-top: 2em;
 }
 
 h3 {
@@ -29,14 +33,7 @@ h3 {
 }
 
 p {
-  color: #fffaff;
-}
-
-body {
-  background-image: url("../assets/wallpaper.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  color: #071426;
 }
 
 dt, li {
@@ -50,15 +47,27 @@ dl {
 footer {
   /* texto */
   text-align: center;
-  color: #fffaff;
+  color: #ffffff;
   /* Fondo */
-  background-color: #4d5359;
+  background-color: #071426;
+}
+
+/*
+* Clases 
+*/
+.card h2 {
+  color: #071426;
+  padding-top: 1em;
+}
+
+.card {
+  margin-top: 2em;
 }
 
 /* Navbar */
 .custom-toggler.navbar-toggler {
-  border-color: #fffaff;
-  color: #fffaff;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .navbar {
@@ -70,13 +79,39 @@ footer {
 }
 
 .bi {
-  color: #fffaff;
+  color: #ffffff;
   vertical-align: middle;
 }
 
+.carousel-inner img {
+  height: 18em;
+  width: 15em;
+  margin: auto;
+}
+
+.carousel-indicators {
+  top: 255px;
+}
+
+.card_text {
+  color: #071426;
+}
+
+.icon_bar {
+  padding-bottom: 2em;
+}
+
+/*
+* Elementos  
+*/
 #logo-header {
   font-size: 40px;
   vertical-align: middle;
+}
+
+#main {
+  padding-left: 0%;
+  padding-right: 0px;
 }
 
 #content {
@@ -89,40 +124,38 @@ footer {
   height: 100vh;
 }
 
-#HeroBand {
-  background-color: #071426;
-  opacity: 0.7;
-}
-
 @media screen and (min-width: 768px) {
   #Hero {
     padding-top: 10em;
     height: 100vh;
   }
 }
+#HeroBand {
+  padding-left: 3em;
+  background-color: rgba(7, 20, 38, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  #HeroBand {
+    padding-left: 5em;
+  }
+}
+#Hero_Sub {
+  color: #F15025;
+  padding-top: 0em;
+}
+
+#Hobbie {
+  height: 100vh;
+}
+
 #img_profile {
   border-radius: 50%;
   margin: auto;
 }
 
-#Hero_Sub {
-  color: #F15025;
-  padding-top: 0em;
-  padding-bottom: 0em;
-}
-
 #sidebar {
   color: #F15025;
-}
-
-.carousel-inner img {
-  height: 16em;
-  width: 16em;
-  margin: auto;
-}
-
-.carousel-indicators {
-  top: 255px;
 }
 
 /*# sourceMappingURL=main.css.map */

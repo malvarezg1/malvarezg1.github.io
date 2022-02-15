@@ -35,7 +35,6 @@
     <title>Martín Álvarez</title>
   </head>
   <body>
-    <div class="container-fluid" id="main">
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
           <button
@@ -71,63 +70,60 @@
           </div>
         </div>
       </nav>
-      <!-- Hero -->
+    <!-- Hero -->
+    <div class="container-fluid" id="main">
       <div class="row" id="Hero">
-          <div class="container-fluid">
-            <div class="row my-auto" id="HeroBand" >
-                <h1>Martín Álvarez</h1>
-                <h2 id="Hero_Sub">Developer, Engineer, & Problem Solver</h2>
-                <div class="row">
-                    <div class="col">
-                        <button type="button" class="btn btn-link">
-                        <a href="https://www.linkedin.com/in/martin-alvarez-gaviria/"
-                        ><i class="bi bi-linkedin"></i
-                        ></a>
-                        </button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-link">
-                        <a href="https://github.com/malvarezg1"
-                        ><i class="bi bi-github"></i
-                        ></a>
-                        </button>
-                    </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-link">
-                        <a href="https://www.instagram.com/martinalvarezgaviria/"
-                        ><i class="bi bi-instagram"></i
-                        ></a>
-                        </button>
-                    </div>
-                    <div class="col-9"></div>
-                </div>
+        <div class="row my-auto" id="HeroBand">
+          <h1>Martín Álvarez</h1>
+          <h2 id="Hero_Sub">Developer, Engineer, & Problem Solver</h2>
+          <div class="row icon_bar">
+            <div class="col">
+              <button type="button" class="btn btn-link">
+                <a href="https://www.linkedin.com/in/martin-alvarez-gaviria/"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </button>
             </div>
-
+            <div class="col">
+              <button type="button" class="btn btn-link">
+                <a href="https://github.com/malvarezg1"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </button>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-link">
+                <a href="https://www.instagram.com/martinalvarezgaviria/"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </button>
+            </div>
+            <div class="col-9"></div>
           </div>
-    </div>
-      <div class="row" id="content">
-      <!-- About Section -->
-      <div class="row" id="About">
-        <h2>About Me</h2>
-        <div class="col-lg-8">
-          <p>
-            I am Martín Álvarez, a student of Systems and Computer Engineering
-            at the Universidad de los Andes, in Bogotá, Colombia
-          </p>
-        </div>
-        <div class="col-lg-4 text-center">
-          <img
-            id="img_profile"
-            src="./assets/Profile.jfif"
-            alt="Foto de perfil"
-            height="200px"
-          />
         </div>
       </div>
-      <!-- CV Section -->
-      <div class="row" id="CV">
+      <div class="row" id="content">
         <div class="card" style="width: 100%">
-          <h2 class="card-title">CV</h2>
+          <div class="row">
+            <!-- About Section -->
+            <h2 class="card-title" id="About">About Me</h2>
+            <div class="col-12 col-lg-8 text-justify">
+              <p class="card_text">
+                My name is Martín Alvarez. I'm Industrial Engineer and Systems
+                and Computing Engineer from Universidad de los Andes
+              </p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+              <img
+                id="img_profile"
+                src="./assets/Profile.jfif"
+                alt="Foto de perfil"
+                height="200px"
+              />
+            </div>
+          </div>
+          <!-- CV Section -->
+          <h2 class="card-title" id="CV">CV</h2>
           <div class="col text-justify">
             <h3>Education</h3>
             <dl>
@@ -218,37 +214,34 @@
         <div class="row" id="Projects">
           <h2>Projects</h2>
           <div class="col-12 col-md-6 col-xl-4">
-            <div class="card" style="width: 18rem">
+            <div class="card mx-auto" style="width: 18rem">
               <img
-                src="./assets/calsification.png"
+                src="./assets/machine_learning.svg"
                 class="card-img-top"
-                alt="..."
+                alt="Machine learning model"
               />
               <div class="card-body">
                 <h5 class="card-title">CNN for Room Clasification</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Trained a convolutional neural network that is able to classify images of different types of rooms. 
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+            <div class="card mx-auto" style="width: 18rem">
+              <img src="./assets/house_sale.svg" class="card-img-top" alt="House for sale" />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Real Estate Pricing Model </h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Built a machine learning model based on deep neural networks to predict the value of properties using quantitative data and images.  
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+            <div class="card mx-auto" style="width: 18rem">
+              <img src="" class="card-img-top" alt="" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -342,12 +335,24 @@
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <p>I like to read books.</p>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-12 col-lg-6">
-              <p>Palylist</p>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
             </div>
             <div class="col-12 col-lg-6">
               <iframe
@@ -360,11 +365,10 @@
               ></iframe>
             </div>
           </div>
+        </div>
           <div class="row">
             <div class="col-12 col-lg-6">
               <iframe
-                width="560"
-                height="315"
                 src="https://www.youtube.com/embed/JW3WfSFgrVY"
                 title="YouTube video player"
                 frameborder="0"
@@ -373,11 +377,18 @@
               ></iframe>
             </div>
             <div class="col-12 col-lg-6">
-              <p>Videoooooo</p>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -385,12 +396,12 @@
       crossorigin="anonymous"
     ></script>
     <footer>
-        <div class="container-fluid">
-          <div class="row">
-            <p>Created by Martín Álvarez. 2022</p>
-            <p>ISIS3710, Universidad de los Andes</p>
-          </div>
+      <div class="container-fluid">
+        <div class="row">
+          <p>Created by Martín Álvarez. 2022</p>
+          <p>ISIS3710, Universidad de los Andes</p>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
