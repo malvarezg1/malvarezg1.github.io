@@ -1,6 +1,6 @@
 # Página personal
 ## Autor: Martín Álvarez
 
-Esta es una página perosonal de Martín Álvarez Gaviria. En el contenido podrás encontrar un breve texto que cuenta un poco acerca de mi, así como mi curriculum. También podrás conocer mis proyectos más importantes. Como material adicional están mis libros, canciones y películas favoritas. 
+This is a personal page of Martín Álvarez Gaviria. In the content you can find a brief text that tells a little about me, as well as my resume. You will also be able to know my most important projects. As additional material are my favorite books, songs and movies.
 
-[Haz click aquí para vistar mi página web](https://malvarezg1.github.io)
+[Click here to visit the website](https://malvarezg1.github.io)
