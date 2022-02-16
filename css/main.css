@@ -4,11 +4,16 @@
 /*
 * Etiquetas 
 */
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background-image: url("../assets/wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 }
 
 h1 {
@@ -95,7 +100,7 @@ footer p {
 }
 
 .carousel-indicators {
-  top: 255px;
+  top: 320px;
 }
 
 .card_text {
@@ -106,12 +111,21 @@ footer p {
   padding-bottom: 2em;
 }
 
+.hobbie_conatiner {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 /*
 * Elementos  
 */
 #logo-header {
   font-size: 40px;
   vertical-align: middle;
+}
+
+#main {
+  padding-right: 0px;
 }
 
 #content {
@@ -149,6 +163,11 @@ footer p {
   height: 100vh;
 }
 
+#About_text {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
 #img_profile {
   border-radius: 50%;
   margin: auto;
@@ -159,6 +178,7 @@ footer p {
 }
 
 #YTVideo {
+  padding-top: 2em;
   width: 270px;
   height: 151px;
 }
@@ -174,6 +194,21 @@ footer p {
     width: 560px;
     height: 315px;
   }
+}
+#SpotifyFrame {
+  padding-top: 2em;
+  width: 250px;
+  height: 380px;
+}
+
+@media screen and (min-width: 758px) {
+  #SpotifyFrame {
+    width: 300px;
+    height: 380px;
+  }
+}
+#carouselExampleIndicators {
+  padding-top: 2em;
 }
 
 /*# sourceMappingURL=main.css.map */
