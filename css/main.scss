@@ -13,7 +13,8 @@ $white: #ffffff;
 * Etiquetas 
 */
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -22,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  position: relative
+  position: relative;
 }
 
 h1 {
@@ -67,7 +68,7 @@ footer {
   background-color: $gray3;
 }
 
-footer p{
+footer p {
   color: $white;
 }
 /*
@@ -120,11 +121,10 @@ footer p{
   padding-bottom: 2em;
 }
 
-.hobbie_conatiner{
+.hobbie_conatiner {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-
 
 /*
 * Elementos  
@@ -135,7 +135,7 @@ footer p{
   vertical-align: middle;
 }
 
-#main{
+#main {
   padding-right: 0px;
 }
 #content {
@@ -173,7 +173,7 @@ footer p{
   height: 100vh;
 }
 
-#About_text{
+#About_text {
   font-size: 1.5em;
   text-align: justify;
 }
@@ -205,7 +205,7 @@ footer p{
   }
 }
 
-#SpotifyFrame{
+#SpotifyFrame {
   padding-top: 2em;
   width: 250px;
   height: 380px;
@@ -217,6 +217,6 @@ footer p{
   }
 }
 
-#carouselExampleIndicators{
+#carouselExampleIndicators {
   padding-top: 2em;
 }
