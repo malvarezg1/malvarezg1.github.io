@@ -57,6 +57,8 @@ li {
   text-align: justify;
 }
 
+
+
 @media screen and(min-width:425px) {
   dl {
     padding-left: 3em;
@@ -188,6 +190,10 @@ footer p {
 
 #sidebar {
   color: $cyan;
+}
+
+#Projects{
+margin-bottom: 50px;
 }
 
 #YTVideo {
