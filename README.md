@@ -1,6 +1,6 @@
 # Personal Website
 ## Author: Martín Álvarez
 
-This is a personal page of Martín Álvarez Gaviria. In the content you can find a brief text that tells a little about me, as well as my resume. You will also be able to know my most important projects. As additional material are my favorite books, songs and movies.
+This is a personal page of Martín Álvarez Gaviria. In the content you can find my resume, as well as the important projects I have made. 
 
 [Click here to visit the website](https://malvarezg1.github.io)
